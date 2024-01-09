@@ -54,7 +54,7 @@ const tableData = [
 ];
 const ViewTable = () => {
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col shadow-md">
       <DetailCard />
       {tableData.map((item, idx) => {
         return <TableData key={idx} {...item}></TableData>;
