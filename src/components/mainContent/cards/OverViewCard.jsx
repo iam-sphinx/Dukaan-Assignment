@@ -69,7 +69,7 @@ const OverViewCard = ({ rs = 0, order = 0 }) => {
       </div>
 
       <div className="w-full h-8 absolute bottom-0 right-[-0.003px] py-2 px-6 bg-[#0E4F82] rounded-lg">
-        <div className="flex justify-between items-center text-[14px] leading-[20px] text-[#F2F2F2]">
+        <div className="flex h-full justify-between items-center text-[14px] leading-[20px] text-[#F2F2F2]">
             <h1 className="font-normal">Next Payout date:</h1>
             <h1 className="font-medium">Today, 04:00PM</h1>
         </div>
