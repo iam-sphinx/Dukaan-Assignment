@@ -5,12 +5,10 @@ import MainContent from "./components/MainContent";
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#fafafa]">
-      <div className="flex-1 w-full bg-inherit max-w-screen-2xl flex">
-      
-      <SideBar/>
-      <MainContent/>
-
+    <div className="h-screen flex justify-center bg-[#fafafa]">
+      <div className="w-[1920px] flex">
+        <SideBar />
+        <MainContent />
       </div>
     </div>
   );

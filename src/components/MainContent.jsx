@@ -4,7 +4,7 @@ import Content from './mainContent/Content'
 
 const MainContent = () => {
   return (
-    <div className='flex flex-col flex-1'>
+    <div className='flex flex-col flex-1 overflow-auto'>
     <Navbar/>
 
     <Content/>
