@@ -27,7 +27,7 @@ const SearchBar = () => {
         <div className="flex-1 overflow-hidden">
           <input
             type="text"
-            className="w-full h-full text-ellipsis text-[#999] text-sm font-normal"
+            className="w-full h-full text-ellipsis text-[#999] text-sm font-normal outline-none"
           />
         </div>
       </div>
